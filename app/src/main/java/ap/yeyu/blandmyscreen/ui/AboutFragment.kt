@@ -1,11 +1,11 @@
-package com.example.blandmyscreen.ui.main
+package ap.yeyu.blandmyscreen.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.blandmyscreen.R
+import ap.yeyu.blandmyscreen.R
 
 object AboutFragment: Fragment() {
 

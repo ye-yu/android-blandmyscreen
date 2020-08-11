@@ -1,4 +1,4 @@
-package com.example.blandmyscreen
+package ap.yeyu.blandmyscreen
 
 import org.junit.Test
 

@@ -1,10 +1,10 @@
-package com.example.blandmyscreen.ui.main
+package ap.yeyu.blandmyscreen.ui
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.blandmyscreen.R
+import ap.yeyu.blandmyscreen.R
 
 class MainPagerAdapter(fragmentManager: FragmentManager, private val context: Context) :
     FragmentPagerAdapter(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {

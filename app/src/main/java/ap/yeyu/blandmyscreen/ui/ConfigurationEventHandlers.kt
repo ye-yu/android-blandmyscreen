@@ -1,4 +1,4 @@
-package com.example.blandmyscreen.ui.main
+package ap.yeyu.blandmyscreen.ui
 
 import android.content.ContentResolver
 import android.provider.Settings

@@ -1,10 +1,10 @@
-package com.example.blandmyscreen
+package ap.yeyu.blandmyscreen
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
-import com.example.blandmyscreen.ui.main.ConfigurationEventHandlers
-import com.example.blandmyscreen.ui.main.MainPagerAdapter
+import ap.yeyu.blandmyscreen.ui.ConfigurationEventHandlers
+import ap.yeyu.blandmyscreen.ui.MainPagerAdapter
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
