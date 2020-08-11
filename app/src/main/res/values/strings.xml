@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bland My Screen</string>
+    <string name="configuration">Configuration</string>
+    <string name="about">About</string>
+
+    <string name="config_instant_bland">Instant Bland</string>
+    <string name="config_instant_bland_description">Immediately removes the colour of your screen.</string>
+    <string name="about.name">Developer: Ye Yu</string>
+</resources>
