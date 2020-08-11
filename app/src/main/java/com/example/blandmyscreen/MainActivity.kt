@@ -3,6 +3,7 @@ package com.example.blandmyscreen
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
+import com.example.blandmyscreen.ui.main.ConfigurationEventHandlers
 import com.example.blandmyscreen.ui.main.MainPagerAdapter
 import com.google.android.material.tabs.TabLayout
 
@@ -16,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         viewPager.adapter = sectionsPagerAdapter
         configurationTab.setupWithViewPager(viewPager)
+
+        ConfigurationEventHandlers.initContentResolver(contentResolver)
     }
 }

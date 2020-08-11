@@ -7,13 +7,23 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.blandmyscreen.R
 
-class ConfigurationFragment: Fragment() {
+object ConfigurationFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.configuration_page, container, false)
+        val root = inflater.inflate(R.layout.configuration_page, container, false)
+        bindWidgets(root)
+        return root
+    }
+
+    private fun bindWidgets(root: View) {
+        ConfigurationEventHandlers.configureInstantBlandSwitch(
+            root.findViewById(
+                ConfigurationViews.INSTANT_BLAND_BUTTON
+            )
+        )
     }
 }

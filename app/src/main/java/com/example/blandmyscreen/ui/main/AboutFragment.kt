@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.blandmyscreen.R
 
-class AboutFragment: Fragment() {
+object AboutFragment: Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
